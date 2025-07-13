@@ -1,3 +1,6 @@
+-- Calculates the average time (in minutes) between the first session and first purchase,
+-- grouped by acquisition channel.
+
 -- Step 1: Get first session and first purchase per user and associate their channel
 with user_first_touch as (
 select
